@@ -4,15 +4,14 @@
     "description": "A dynamic revision scheduler that adapts based on student progress, learning style, and deadlines.",
     "version": "1.0",
     "permissions": [
-      "storage",
-      "alarms",
-      "notifications"
+        "storage",
+        "alarms",
+        "notifications"
     ],
     "background": {
-      "service_worker": "background.js"
+        "service_worker": "background.js"
     },
     "action": {
-      "default_popup": "popup.html"
-    },
-  }
-  
+        "default_popup": "popup.html"
+    }
+}
