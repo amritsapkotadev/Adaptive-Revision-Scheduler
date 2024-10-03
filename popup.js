@@ -15,7 +15,6 @@ document.getElementById("save").addEventListener("click", function() {
 function updateSchedule() {
     chrome.storage.sync.get(["subject", "deadline", "difficulty"], function(data) {
         const progress = document.getElementById("progress");
-        progress.innerHTML = `Subject: ${data.subject}, Deadline: ${data.deadline}, Difficulty: ${data.difficulty}`;
         
         // Placeholder: Update this section with real adaptive scheduling logic.
     });
