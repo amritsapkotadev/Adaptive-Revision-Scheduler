@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Adaptive Revision Scheduler",
+    "description": "A dynamic revision scheduler that adapts based on student progress, learning style, and deadlines.",
+    "version": "1.0",
+    "permissions": [
+      "storage",
+      "alarms",
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+  
